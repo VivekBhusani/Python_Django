@@ -8,7 +8,7 @@ def entry(request):
 
     return render(request,'home.html')
 
-# Create your views here.
+
 def register(request):
     if request.method == 'POST':
         form= UserCreationForm(request.POST)
